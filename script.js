@@ -37,9 +37,12 @@ $("#enterCity").on("click", function(event) {
   });
 
   function cityButton(){
+	var divBttn = $("<div>"); 
 	var newBttn = $("<button>");
 	newBttn.text(city);
-	$("#bttnContainer").append(newBttn);
+	divBttn.append(newBttn);
+	$("#bttnContainer").append(divBttn);
+	
   }
 });
 
