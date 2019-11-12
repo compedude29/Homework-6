@@ -1,4 +1,16 @@
 h1 { color: white;
-    background-color: black;
+    background-color: rgb(5, 17, 70);
     text-align: center;
+}
+
+#srchContainer {
+    background-color: lightblue;
+}
+
+#tempContainer {
+    background-color: lightblue;
+}
+
+#bttnContainer {
+    background-color: lightblue;
 }
