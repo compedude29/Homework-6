@@ -1,0 +1,7 @@
+Build RESTful APIs with Node and Express Summary
+	The “http” module in Node.js is too cumbersome to create a server with many endpoints. The reason being for every endpoint we would have to type an “if” statement. Hence express comes in handy because it simplifies this. Express is a framework based off of Node.js that is able to use the “http” methods such as “Get”, “Post”, “Put” and “Delete”. The “Get” method gets data while the “Post” method creates data and the “Put” method updates data and finally the “Delete” method deletes data. 
+	Express allows us to build maintainable servers without the need of using a ton of “if” statements. Instead we can use “Get” method along with the “app” constant that contains the imported Express object. A useful package named Nodemon is then presented in order to be able to run our test application without having to stop and call it all the time in our terminal. Now we are able to run our application with nodemon which will automatically restart our application due code changes. 
+
+
+
+
